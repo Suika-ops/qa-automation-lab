@@ -24,4 +24,4 @@ jobs:
     - name: Run tests
       run: pytest -v
 
-update workflow
+& rerun workflow
