@@ -22,4 +22,4 @@ jobs:
         playwright install --with-deps
 
     - name: Run tests
-      run: pytest -v 
+  run: pytest -vv --maxfail=1 --disable-warnings 
