@@ -22,6 +22,4 @@ jobs:
         playwright install --with-deps
 
     - name: Run tests
-      run: pytest -v
-
-& rerun workflow
+      run: pytest -v 
